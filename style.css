@@ -1,0 +1,84 @@
+.main {
+  background-color: #1abc9c;
+  min-height: 679px;
+}
+.main #Row1 {
+  margin-top: 7%;
+}
+.main .headContents {
+  margin-top: 40px;
+}
+.main .headContents h1 {
+  font-size: 64px;
+}
+
+.main p {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.navbar {
+  height: 104px;
+  background-color: #2c3e50;
+}
+.navbar #navMain h1 a {
+  text-decoration: none;
+  font-size: 28px;
+}
+.navbar #navMain #navBtnGroup a {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 16px;
+  color: #fff !important;
+}
+#navBtnGroup a :hover{
+  color: #1abc9c !important;
+
+}
+.navbar #navMain button {
+  display: none;
+}
+
+.portfolio-text-center {
+  margin-bottom: 5px;
+  
+}
+
+
+
+#renk {
+  background-color: #1abc9c;
+  padding-top: 1.5rem;
+  
+}
+
+#en {
+  background-color: #2c3e50;
+  color: white;
+}
+
+#loc {
+  margin-top: 10px;
+}
+
+.copyright{
+  background-color: #1a252f;
+  color: white;
+  text-align: center;
+}
+
+
+.footer{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.btn{ 
+  border: 2px;
+  padding-top: 16px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  
+}
