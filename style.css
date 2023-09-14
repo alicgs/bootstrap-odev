@@ -17,24 +17,33 @@
   font-family: sans-serif;
 }
 
-.navbar {
-  height: 104px;
+#navComp{
   background-color: #2c3e50;
+  padding: 1.5rem;
 }
-.navbar #navMain h1 a {
-  text-decoration: none;
-  font-size: 28px;
-}
-.navbar #navMain #navBtnGroup a {
-  text-decoration: none;
-  margin-left: 50px;
-  font-size: 16px;
-  color: #fff !important;
-}
-#navBtnGroup a :hover{
-  color: #1abc9c !important;
+
+.navbar-brand{
+  color: white;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
 
 }
+.nav-link {
+  color: white !important;
+}
+.nav-item a:hover{
+color:#198754 !important;
+}
+
+
+
+.nav-item{
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .navbar #navMain button {
   display: none;
 }
@@ -74,11 +83,27 @@
 }
 
 .btn{ 
-  border: 2px;
+  
   padding-top: 16px;
   padding-left: 28px;
   padding-right: 28px;
   padding-bottom: 16px;
   border-radius: 5px;
   
+}
+
+.kelimeyapma{
+  font-size: medium;
+  text-align: center;
+  font-weight: 500;
+}
+
+.lead{
+  text-align: start;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.img-fluid {
+  border-radius: 2%;
 }
